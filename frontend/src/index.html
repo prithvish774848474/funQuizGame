@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Prithvish Sarkar" />
+    <meta name="keywords" content="quiz, typescript, tailwindcss" />
+    <meta name="description" content="fun quiz game" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="/favicon/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon/favicon-16x16.png" type="image/png">
+    <link rel="icon" href="/favicon/favicon-32x32.png" type="image/png">
+    <link rel="icon" href="/favicon/android-chrome-192x192.png" type="image/png">
+    <link rel="icon" href="/favicon/android-chrome-512x512.png" type="image/png">
+    <link rel="apple-touch-icon" href="/favicon/apple-touch-icon.png">
+    <title>Fun Quiz</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <noscript>Your browser does not support JavaScript!</noscript>
+  </head>
+  <body class="bg-sky-50 flex justify-center items-center min-h-[100vh]">
+    <section class="
+      w-[90%] h-[90%] mt-4 mb-4 border border-sky-400 border-solid rounded-lg p-2
+      shadow-lg shadow-sky-200 text-center box-border md:mt-0 md:mb-0
+    ">
+      <header class="
+        font-sans font-bold underline text-purple-700 text-3xl md:text-5xl
+      ">
+        Try Out Your Knowledge!
+      </header>
+
+      <!-- Question x out of 10 -->
+      <h1 class="
+        mt-2 font-serif font-medium italic text-indigo-700 text-lg md:text-2xl md:mt-8
+      "></h1>
+
+      <!-- Question Here -->
+      <p class="
+        mt-4 font-mono text-purple-700 text-xl border-l-4 border-solid border-purple-500
+        p-2 font-semibold md:text-3xl md:border-double md:border-l-8 md:text-left
+        hover:text-indigo-700 hover:border-indigo-500
+      "></p>
+
+      <!-- Buttons Contains Options -->
+      <!-- 
+        Below is the Button Container that has class property 'md:grid-cols-1' initially
+        but will be changed to 'md:grid-cols-2' later to display the options
+      -->
+      <div class="
+        mt-8 flex flex-col items-center md:mt-12 md:grid md:grid-cols-1
+        md:gap-2 md:justify-center md:justify-items-center
+      " id="buttonContainer">
+        <button class="
+        rounded-2xl text-sky-700 font-mono font-extrabold italic border border-solid
+        border-sky-700 p-2 min-w-[80%] mb-2 outline-none md:p-4 hover:text-white
+        hover:bg-sky-700 md:min-w-full md:mb-0
+      "></button>
+      <button class="
+        rounded-2xl text-sky-700 font-mono font-extrabold italic border border-solid
+        border-sky-700 p-2 min-w-[80%] mb-2 outline-none md:p-4 hover:text-white
+        hover:bg-sky-700 md:min-w-full md:mb-0
+      "></button>
+      <button class="
+        rounded-2xl text-sky-700 font-mono font-extrabold italic border border-solid
+        border-sky-700 p-2 min-w-[80%] mb-2 outline-none md:p-4 hover:text-white
+        hover:bg-sky-700 md:min-w-full md:mb-0
+      "></button>
+      <button class="
+        rounded-2xl text-sky-700 font-mono font-extrabold italic border border-solid
+        border-sky-700 p-2 min-w-[80%] mb-2 outline-none md:p-4 hover:text-white
+        hover:bg-sky-700 md:min-w-full md:mb-0
+      "></button>
+      </div>
+    </section>
+    <script src="index.js" async defer></script>
+  </body>
+</html>
