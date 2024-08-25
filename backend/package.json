@@ -6,9 +6,13 @@
   "version": "1.0.0",
   "description": "hosting the frontend using backend",
   "main": "host.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d ../frontend/src"
   },
   "keywords": [
     "typescript",
