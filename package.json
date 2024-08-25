@@ -2,7 +2,7 @@
   "name": "typescript-quiz",
   "version": "1.0.0",
   "description": "It is a fun game made using Tailwind CSS and TypeScript",
-  "main": "index.js",
+  "main": "frontend/src/index.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -23,5 +23,5 @@
   "bugs": {
     "url": "https://github.com/prithvish774848474/funQuizGame/issues"
   },
-  "homepage": "https://github.com/prithvish774848474/funQuizGame/frontend/src/index.html"
+  "homepage": "https://github.com/prithvish774848474/funQuizGame/"
 }
