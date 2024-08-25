@@ -11,6 +11,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "vite build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d ../frontend/src"
   },
