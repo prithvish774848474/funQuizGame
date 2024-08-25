@@ -10,4 +10,4 @@ I have used Tailwind CSS for Styling and TypeScript for strict type checking.
 <br><br>
 
 # Project Link
-My project link is: 
+My project link is: https://prithvish774848474.github.io/funQuizGame/
