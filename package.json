@@ -1,0 +1,26 @@
+{
+  "name": "typescript-quiz",
+  "version": "1.0.0",
+  "description": "It is a fun game made using Tailwind CSS and TypeScript",
+  "main": "/frontend/src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prithvish774848474/funQuizGame.git"
+  },
+  "keywords": [
+    "typescript",
+    "tailwind",
+    "css",
+    "quiz",
+    "game"
+  ],
+  "author": "Prithvish Sarkar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prithvish774848474/funQuizGame/issues"
+  },
+  "homepage": "https://github.com/prithvish774848474/funQuizGame#readme"
+}
