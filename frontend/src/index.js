@@ -119,29 +119,29 @@ for (let i = 0; i < 4; i++) {
         if (index >= 0 && countClicks <= 10) {
             if (optionButtons[i].getAttribute("value") === questions[index].answer) {
                 score++;
-                optionButtons[i].classList.remove("text-sky-700", "border-sky-700", "hover:text-white", "hover:bg-sky-700");
+                optionButtons[i].classList.remove("text-sky-700", "border-sky-700", "md:hover:text-white", "md:hover:bg-sky-700");
                 optionButtons[i].classList.add("text-white", "border-green-700", "bg-green-700");
                 setTimeout(() => {
                     optionButtons[i].classList.remove("text-white", "border-green-700", "bg-green-700");
-                    optionButtons[i].classList.add("text-sky-700", "border-sky-700", "hover:text-white", "hover:bg-sky-700");
+                    optionButtons[i].classList.add("text-sky-700", "border-sky-700", "md:hover:text-white", "md:hover:bg-sky-700");
                 }, 1000);
             }
             else {
-                optionButtons[i].classList.remove("text-sky-700", "border-sky-700", "hover:text-white", "hover:bg-sky-700");
+                optionButtons[i].classList.remove("text-sky-700", "border-sky-700", "md:hover:text-white", "md:hover:bg-sky-700");
                 optionButtons[i].classList.add("text-white", "border-red-700", "bg-red-700");
                 for (let j = 0; j < 4; j++) {
                     if (optionButtons[j].getAttribute("value") === questions[index].answer) {
-                        optionButtons[j].classList.remove("text-sky-700", "border-sky-700", "hover:text-white", "hover:bg-sky-700");
+                        optionButtons[j].classList.remove("text-sky-700", "border-sky-700", "md:hover:text-white", "md:hover:bg-sky-700");
                         optionButtons[j].classList.add("text-white", "border-green-700", "bg-green-700");
                         break;
                     }
                 }
                 setTimeout(() => {
                     optionButtons[i].classList.remove("text-white", "border-red-700", "bg-red-700");
-                    optionButtons[i].classList.add("text-sky-700", "border-sky-700", "hover:text-white", "hover:bg-sky-700");
+                    optionButtons[i].classList.add("text-sky-700", "border-sky-700", "md:hover:text-white", "md:hover:bg-sky-700");
                     for (let j = 0; j < 4; j++) {
                         optionButtons[j].classList.remove("text-white", "border-green-700", "bg-green-700");
-                        optionButtons[j].classList.add("text-sky-700", "border-sky-700", "hover:text-white", "hover:bg-sky-700");
+                        optionButtons[j].classList.add("text-sky-700", "border-sky-700", "md:hover:text-white", "md:hover:bg-sky-700");
                     }
                 }, 1000);
             }
@@ -156,7 +156,7 @@ for (let i = 0; i < 4; i++) {
                     optionButtons[j].style.display = "none";
                 buttonContainer.classList.remove("md:grid-cols-2");
                 buttonContainer.classList.add("md:grid-cols-1");
-                optionButtons[0].textContent = "Click to Start Again!";
+                optionButtons[0].textContent = "Click Here to Start Again!";
             }
             else {
                 index < 9 && index++;
