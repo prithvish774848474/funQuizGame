@@ -129,8 +129,8 @@ for (let i = 0; i < 4; i++) {
         optionButtons[i].classList.remove(
           "text-sky-700",
           "border-sky-700",
-          "hover:text-white",
-          "hover:bg-sky-700"
+          "md:hover:text-white",
+          "md:hover:bg-sky-700"
         );
         optionButtons[i].classList.add(
           "text-white",
@@ -146,16 +146,16 @@ for (let i = 0; i < 4; i++) {
           optionButtons[i].classList.add(
             "text-sky-700",
             "border-sky-700",
-            "hover:text-white",
-            "hover:bg-sky-700"
+            "md:hover:text-white",
+            "md:hover:bg-sky-700"
           );
         }, 1000);
       } else {
         optionButtons[i].classList.remove(
           "text-sky-700",
           "border-sky-700",
-          "hover:text-white",
-          "hover:bg-sky-700"
+          "md:hover:text-white",
+          "md:hover:bg-sky-700"
         );
         optionButtons[i].classList.add(
           "text-white",
@@ -169,8 +169,8 @@ for (let i = 0; i < 4; i++) {
             optionButtons[j].classList.remove(
               "text-sky-700",
               "border-sky-700",
-              "hover:text-white",
-              "hover:bg-sky-700"
+              "md:hover:text-white",
+              "md:hover:bg-sky-700"
             );
             optionButtons[j].classList.add(
               "text-white",
@@ -189,8 +189,8 @@ for (let i = 0; i < 4; i++) {
           optionButtons[i].classList.add(
             "text-sky-700",
             "border-sky-700",
-            "hover:text-white",
-            "hover:bg-sky-700"
+            "md:hover:text-white",
+            "md:hover:bg-sky-700"
           );
           for (let j = 0; j < 4; j++) {
             optionButtons[j].classList.remove(
@@ -201,8 +201,8 @@ for (let i = 0; i < 4; i++) {
             optionButtons[j].classList.add(
               "text-sky-700",
               "border-sky-700",
-              "hover:text-white",
-              "hover:bg-sky-700"
+              "md:hover:text-white",
+              "md:hover:bg-sky-700"
             );
           }
         }, 1000);
@@ -217,7 +217,7 @@ for (let i = 0; i < 4; i++) {
         for (let j = 1; j < 4; j++) optionButtons[j].style.display = "none";
         buttonContainer.classList.remove("md:grid-cols-2");
         buttonContainer.classList.add("md:grid-cols-1");
-        optionButtons[0].textContent = "Click to Start Again!";
+        optionButtons[0].textContent = "Click Here to Start Again!";
       } else {
         index < 9 && index++;
         questionNumberElement.textContent = `Question ${index + 1} out of 10`;
